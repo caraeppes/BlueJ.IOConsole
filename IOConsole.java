@@ -39,7 +39,7 @@ public class IOConsole {
      * @param args : optional arguments to send for string formatting
      */
     public void println(String val, Object... args) {
-        out.format(val + "\n", args);
+        print(val + "\n", args);
     }
 
     /**
